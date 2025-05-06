@@ -55,6 +55,19 @@ public partial class MainViewModel : ObservableObject
                 Books = new ObservableCollection<Book>();
             }
         }
-
     }
+
+    [RelayCommand]
+    public void AddToFavorites(Book selectedBook)
+    {
+        if (selectedBook == null) return;
+
+        var favorites = BookStorage.LoadFavorites();
+        if (!favorites.Any(b => b.Title == selectedBook.Title && b.Publisher == selectedBook.Publisher))
+        {
+            favorites.Add(selectedBook);
+            BookStorage.SaveFavorites(favorites);
+        }
+    }
+
 }

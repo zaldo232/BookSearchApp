@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookSearchApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,5 +24,21 @@ namespace BookSearchApp.Views
         {
             InitializeComponent();
         }
+
+        private void OpenFavorites_Click(object sender, RoutedEventArgs e)
+        {
+            var favoritesWindow = new FavoritesView();
+            favoritesWindow.ShowDialog();
+        }
+
+        private void BookListBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (sender is ListBox listBox && listBox.SelectedItem is Book selectedBook)
+            {
+                var detailView = new BookDetailView(selectedBook);
+                detailView.ShowDialog();
+            }
+        }
+
     }
 }

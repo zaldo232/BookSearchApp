@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\zaldo\Documents\GitHub\BookSearchApp\BookSearchApp\App.xaml
-11256845736
+32047942928
 
-6834906290
+10-759676186
 1991150218095
-Views\MainView.xaml;
+Views\BookDetailView.xaml;Views\FavoritesView.xaml;Views\MainView.xaml;
 
 False
 
