@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\viewmodels\\favoritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\viewmodels\\favoritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\models\\bookstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\models\\bookstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\viewmodels\\favoritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\viewmodels\\favoritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\bookdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\bookdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\bookdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\bookdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\bookdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\bookdetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\models\\bookstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\models\\bookstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\favoritesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\favoritesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FavoritesView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\FavoritesView.xaml.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\FavoritesView.xaml.cs",
@@ -74,15 +74,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "BookDetailView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\BookDetailView.xaml.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\BookDetailView.xaml.cs",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\BookDetailView.xaml.cs",
               "RelativeToolTip": "BookSearchApp\\Views\\BookDetailView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:55:19.119Z"
+              "WhenOpened": "2025-05-06T16:55:19.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,11 +94,12 @@
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\BookDetailView.xaml",
               "RelativeToolTip": "BookSearchApp\\Views\\BookDetailView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:55:10.067Z"
+              "WhenOpened": "2025-05-06T16:55:10.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FavoritesView.xaml",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\FavoritesView.xaml",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\FavoritesView.xaml",
@@ -108,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FavoritesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\FavoritesViewModel.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\ViewModels\\FavoritesViewModel.cs",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\FavoritesViewModel.cs",
               "RelativeToolTip": "BookSearchApp\\ViewModels\\FavoritesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T16:41:15.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BookStorage.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Models\\BookStorage.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Models\\BookStorage.cs",
@@ -134,18 +136,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\App.xaml",
               "RelativeDocumentMoniker": "BookSearchApp\\App.xaml",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\App.xaml",
               "RelativeToolTip": "BookSearchApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:21:41.391Z"
+              "WhenOpened": "2025-05-06T16:21:41.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\MainView.xaml.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\MainView.xaml.cs",
@@ -157,14 +160,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "MainView.xaml",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\MainView.xaml",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\MainView.xaml",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\MainView.xaml",
               "RelativeToolTip": "BookSearchApp\\Views\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:20:53.2Z"
+              "WhenOpened": "2025-05-06T16:20:53.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -172,24 +176,25 @@
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\MainViewModel.cs*",
-              "RelativeToolTip": "BookSearchApp\\ViewModels\\MainViewModel.cs*",
-              "ViewState": "AgIAADIAAAAAAAAAAAASwEYAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "BookSearchApp\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T16:20:33.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Models\\Book.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Models\\Book.cs",
               "RelativeToolTip": "BookSearchApp\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:20:25.422Z"
+              "WhenOpened": "2025-05-06T16:20:25.422Z",
+              "EditorCaption": ""
             }
           ]
         }

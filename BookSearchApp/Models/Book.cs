@@ -8,6 +8,8 @@ public class Book
     public string Thumbnail { get; set; }
     public string Contents { get; set; }
     public int Price { get; set; }
+    public string Url { get; set; }
+
 }
 
 public class BookSearchResult
