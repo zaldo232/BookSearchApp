@@ -10,8 +10,8 @@ Kakao Book API를 활용해 책을 검색하고 즐겨찾기, 정렬, 필터링,
 * MVVM 아키텍처 (CommunityToolkit.Mvvm)
 * Kakao Book API
 * OpenAI GPT API (AI 요약)
-* SQLite (즐겨찾기 저장)
-
+* 로컬 JSON 파일 저장 (즐겨찾기 저장용)
+  
 ---
 
 ##  주요 기능
