@@ -22,7 +22,7 @@ Kakao Book API를 활용해 책을 검색하고 즐겨찾기, 정렬, 필터링,
 |  즐겨찾기    | 책을 즐겨찾기에 추가/삭제하고 CSV로 내보내기                           |
 |  정렬/필터   | 제목순, 가격 낮은순/높은순 정렬 + 출판사 필터 적용                       |
 |  책 상세 정보 | 책의 제목, 저자, 출판사, 설명, 가격 등 정보 확인                       |
-|  AI 요약   | OpenAI API를 사용해 책 내용을 요약해주는 기능 (현재는 응답 제한으로 하드코딩 처리) |
+|  AI 요약   | OpenAI API를 사용해 책 내용을 요약해주는 기능 |
 
 ---
 
@@ -35,7 +35,7 @@ BookSearchApp/
 ├── ViewModels/         # MainViewModel, BookDetailViewModel 등
 ├── Views/              # MainView.xaml, BookDetailView.xaml 등 UI
 ├── Screenshots/        # README에 사용되는 UI 캡처 이미지 모음
-└── App.xaml            # 전역 리소스 (예: BoolToVisibilityConverter)
+└── App.xaml            # 전역 리소스
 ```
 
 ---
