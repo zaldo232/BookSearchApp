@@ -27,3 +27,4 @@ C:\Users\zaldo\Documents\GitHub\BookSearchApp\BookSearchApp\obj\Debug\net8.0-win
 C:\Users\zaldo\Documents\GitHub\BookSearchApp\BookSearchApp\obj\Debug\net8.0-windows\BookSearchApp.pdb
 C:\Users\zaldo\Documents\GitHub\BookSearchApp\BookSearchApp\obj\Debug\net8.0-windows\BookSearchApp.genruntimeconfig.cache
 C:\Users\zaldo\Documents\GitHub\BookSearchApp\BookSearchApp\obj\Debug\net8.0-windows\ref\BookSearchApp.dll
+C:\Users\zaldo\Documents\GitHub\BookSearchApp\BookSearchApp\obj\Debug\net8.0-windows\App.baml

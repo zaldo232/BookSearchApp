@@ -9,26 +9,18 @@ public partial class BookDetailView : Window
     public BookDetailView(Book book)
     {
         InitializeComponent();
-        DataContext = book;
+        DataContext = new BookDetailViewModel(book);
     }
 
     private void OpenUrl_Click(object sender, RoutedEventArgs e)
     {
-        if (DataContext is Book book && !string.IsNullOrWhiteSpace(book.Url))
+        if (DataContext is BookDetailViewModel vm && !string.IsNullOrWhiteSpace(vm.Book.Url))
         {
-            try
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
             {
-                System.Diagnostics.Process.Start(new ProcessStartInfo
-                {
-                    FileName = book.Url,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("브라우저를 열 수 없습니다.\n" + ex.Message);
-            }
+                FileName = vm.Book.Url,
+                UseShellExecute = true
+            });
         }
     }
-
 }

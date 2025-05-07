@@ -1,23 +1,49 @@
 ﻿<Window x:Class="BookSearchApp.Views.BookDetailView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="책 상세 정보" Height="400" Width="600">
+        Title="책 상세 정보" Height="500" Width="600"
+        WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+        <!-- 책 이미지 -->
         <Image Grid.Column="0" Width="120" Height="160" Margin="0 0 10 0"
-               Source="{Binding Thumbnail}" />
+               Source="{Binding Book.Thumbnail}" />
 
+        <!-- 상세 정보 + 요약 -->
         <StackPanel Grid.Column="1">
-            <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="Bold" TextWrapping="Wrap"/>
-            <TextBlock Text="{Binding Publisher}" Margin="0 5 0 0"/>
-            <TextBlock Text="{Binding Authors[0]}" />
-            <TextBlock Text="{Binding Price, StringFormat='₩{0:N0}'}" Margin="0 5 0 0"/>
-            <TextBlock Text="{Binding Contents}" TextWrapping="Wrap" Margin="0 10 0 0"/>
-            <Button Content="웹에서 열기" Margin="0 10 0 0" Width="120" Click="OpenUrl_Click" />
+            <TextBlock Text="{Binding Book.Title}" FontSize="18" FontWeight="Bold" TextWrapping="Wrap"/>
+            <TextBlock Text="{Binding Book.Publisher}" Margin="0 5 0 0"/>
+            <TextBlock Text="{Binding Book.Authors[0]}" />
+            <TextBlock Text="{Binding Book.Price, StringFormat='₩{0:N0}'}" Margin="0 5 0 0"/>
+            <TextBlock Text="{Binding Book.Contents}" TextWrapping="Wrap" Margin="0 10 0 10"/>
+
+            <WrapPanel Margin="0 10 0 0" Orientation="Horizontal">
+                <Button Content="웹에서 열기" Width="120" Click="OpenUrl_Click" />
+                <Button Content="AI 요약" Margin="10 0 0 0"
+                    Command="{Binding GenerateSummaryCommand}"
+                    IsEnabled="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=False}" />
+            </WrapPanel>
+
+            <TextBlock Text="AI 요약 결과:"
+                       FontWeight="SemiBold" Margin="0 15 0 5"
+                       Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=False}" />
+
+            <TextBlock Text="{Binding Summary}"
+                       TextWrapping="Wrap"
+                       FontStyle="Italic"
+                       FontSize="13"
+                       Foreground="DarkSlateGray"
+                       />
+
+            <TextBlock Text="요약 생성 중..."
+                       FontStyle="Italic"
+                       Foreground="DarkGray"
+                       FontSize="13"
+                       Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=True}" />
         </StackPanel>
     </Grid>
 </Window>
