@@ -34,7 +34,6 @@ BookSearchApp/
 ├── Services/            # Kakao API, OpenAI API 호출 서비스
 ├── ViewModels/         # MainViewModel, BookDetailViewModel 등
 ├── Views/              # MainView.xaml, BookDetailView.xaml 등 UI
-├── Screenshots/        # README에 사용되는 UI 캡처 이미지 모음
 └── App.xaml            # 전역 리소스
 ```
 
