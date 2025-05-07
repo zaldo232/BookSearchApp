@@ -1,4 +1,4 @@
-# 📚 BookSearchApp
+# BookSearchApp
 
 Kakao Book API를 활용해 책을 검색하고 즐겨찾기, 정렬, 필터링, AI 요약 기능까지 지원하는 WPF MVVM 책 검색 애플리케이션입니다.
 
@@ -61,13 +61,6 @@ BookSearchApp/
 ### 🌟 즐겨찾기 목록
 
 ![즐겨찾기](Screenshots/즐겨찾기.png)
-
----
-
-## 📦 즐겨찾기 CSV 예시
-
-```
-```
 
 ---
 
