@@ -52,7 +52,7 @@ namespace BookSearchApp.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BookSearchApp;component/views/bookdetailview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BookSearchApp;V1.0.0.0;component/views/bookdetailview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\BookDetailView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

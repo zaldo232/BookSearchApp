@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\viewmodels\\bookdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\viewmodels\\bookdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\views\\bookdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\views\\bookdetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\viewmodels\\bookdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|solutionrelative:booksearchapp\\viewmodels\\bookdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F2EFA7B-3510-41A3-8B7B-C30F5B964B6A}|BookSearchApp\\BookSearchApp.csproj|c:\\users\\zaldo\\documents\\github\\booksearchapp\\booksearchapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,25 +82,24 @@
               "RelativeToolTip": "BookSearchApp\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T17:53:34.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T17:53:34.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "BookDetailViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\BookDetailViewModel.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\ViewModels\\BookDetailViewModel.cs",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\BookDetailViewModel.cs",
               "RelativeToolTip": "BookSearchApp\\ViewModels\\BookDetailViewModel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwDQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T04:03:31.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OpenAiService.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Services\\OpenAiService.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Services\\OpenAiService.cs",
@@ -108,8 +107,7 @@
               "RelativeToolTip": "BookSearchApp\\Services\\OpenAiService.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAQwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T03:58:07.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T03:58:07.722Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "BookSearchApp\\Views\\FavoritesView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:06:52.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T17:06:52.74Z"
             },
             {
               "$type": "Document",
@@ -134,20 +131,18 @@
               "RelativeToolTip": "BookSearchApp\\Views\\BookDetailView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:55:19.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:55:19.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BookDetailView.xaml",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\BookDetailView.xaml",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\BookDetailView.xaml",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\BookDetailView.xaml",
               "RelativeToolTip": "BookSearchApp\\Views\\BookDetailView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:55:10.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:55:10.067Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\FavoritesView.xaml",
               "RelativeToolTip": "BookSearchApp\\Views\\FavoritesView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:49:05.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:49:05.319Z"
             },
             {
               "$type": "Document",
@@ -171,8 +165,7 @@
               "RelativeToolTip": "BookSearchApp\\ViewModels\\FavoritesViewModel.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:41:15.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:41:15.801Z"
             },
             {
               "$type": "Document",
@@ -184,8 +177,7 @@
               "RelativeToolTip": "BookSearchApp\\Models\\BookStorage.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAzwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:40:03.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:40:03.697Z"
             },
             {
               "$type": "Document",
@@ -196,12 +188,11 @@
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\App.xaml",
               "RelativeToolTip": "BookSearchApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:21:41.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:21:41.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\MainView.xaml.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\MainView.xaml.cs",
@@ -209,24 +200,22 @@
               "RelativeToolTip": "BookSearchApp\\Views\\MainView.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:21:29.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:21:29.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainView.xaml",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\MainView.xaml",
               "RelativeDocumentMoniker": "BookSearchApp\\Views\\MainView.xaml",
               "ToolTip": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\Views\\MainView.xaml",
               "RelativeToolTip": "BookSearchApp\\Views\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T16:20:53.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:20:53.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zaldo\\Documents\\GitHub\\BookSearchApp\\BookSearchApp\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "BookSearchApp\\ViewModels\\MainViewModel.cs",
@@ -247,8 +236,7 @@
               "RelativeToolTip": "BookSearchApp\\Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:20:25.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:20:25.422Z"
             }
           ]
         }
