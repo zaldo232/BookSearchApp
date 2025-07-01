@@ -45,10 +45,6 @@ BookSearchApp/
 
 ![검색](Screenshots/검색.png)
 
-### 정렬 기능 (가격 낮은순)
-
-![가격낮은순](Screenshots/가격낮은순정렬.png)
-
 ### 정렬 기능 (가격 높은순)
 
 ![가격높은순](Screenshots/가격높은순정렬.png)
