@@ -9,18 +9,19 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <!-- 책 이미지 -->
-        <Image Grid.Column="0" Width="120" Height="160" Margin="0 0 10 0"
-               Source="{Binding Book.Thumbnail}" />
+        <!-- 책 이미지 영역 -->
+        <Image Grid.Column="0" Width="120" Height="160" Margin="0 0 10 0" Source="{Binding Book.Thumbnail}" />
 
-        <!-- 상세 정보 + 요약 -->
+        <!-- 책 상세 정보 및 요약 영역 -->
         <StackPanel Grid.Column="1">
+            <!-- 책 기본 정보 -->
             <TextBlock Text="{Binding Book.Title}" FontSize="18" FontWeight="Bold" TextWrapping="Wrap"/>
             <TextBlock Text="{Binding Book.Publisher}" Margin="0 5 0 0"/>
             <TextBlock Text="{Binding Book.Authors[0]}" />
             <TextBlock Text="{Binding Book.Price, StringFormat='₩{0:N0}'}" Margin="0 5 0 0"/>
             <TextBlock Text="{Binding Book.Contents}" TextWrapping="Wrap" Margin="0 10 0 10"/>
 
+            <!-- 버튼 영역 -->
             <WrapPanel Margin="0 10 0 0" Orientation="Horizontal">
                 <Button Content="웹에서 열기" Width="120" Click="OpenUrl_Click" />
                 <Button Content="AI 요약" Margin="10 0 0 0"
@@ -28,6 +29,7 @@
                     IsEnabled="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=False}" />
             </WrapPanel>
 
+            <!-- AI 요약 결과 영역 -->
             <TextBlock Text="AI 요약 결과:"
                        FontWeight="SemiBold" Margin="0 15 0 5"
                        Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=False}" />
@@ -39,11 +41,13 @@
                        Foreground="DarkSlateGray"
                        />
 
+            <!-- 로딩 상태 표시 -->
             <TextBlock Text="요약 생성 중..."
                        FontStyle="Italic"
                        Foreground="DarkGray"
                        FontSize="13"
                        Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=True}" />
         </StackPanel>
+        <!-- 책 상세 정보 및 요약 영역 끝 -->
     </Grid>
 </Window>

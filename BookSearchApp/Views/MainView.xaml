@@ -12,60 +12,58 @@
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- 검색/메뉴 -->
+            <!-- 검색/메뉴 영역 -->
             <RowDefinition Height="*"/>
-            <!-- 리스트 -->
+            <!-- 리스트 영역 -->
             <RowDefinition Height="Auto"/>
-            <!-- 페이지 이동 -->
+            <!-- 페이지 이동 영역 -->
         </Grid.RowDefinitions>
 
-        <!-- 검색창 + 정렬/필터 + 즐겨찾기 -->
+        <!-- 검색/필터/정렬/즐겨찾기 영역 -->
         <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0 0 0 10" VerticalAlignment="Center">
             <TextBox Width="200" Height="32"
-             Margin="0 0 10 0"
-             FontSize="14"
-             Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}" />
+                     Margin="0 0 10 0"
+                     FontSize="14"
+                     Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}" />
 
-            <Button Content="검색"
-            Command="{Binding SearchCommand}"
-            Height="32" Padding="10 0" />
+            <Button Content="검색" Command="{Binding SearchCommand}" Height="32" Padding="10 0" />
 
             <Button Content="★ 즐겨찾기"
-            Height="32" Padding="10 0"
-            Margin="10 0 0 0"
-            Click="OpenFavorites_Click" />
+                    Height="32" Padding="10 0"
+                    Margin="10 0 0 0"
+                    Click="OpenFavorites_Click" />
 
-            <!--정렬 옵션: ItemsSource 사용 -->
+            <!-- 정렬 옵션 -->
             <ComboBox Width="130" Height="32"
-              Margin="20 0 0 0"
-              ItemsSource="{Binding SortOptions}"
-              SelectedItem="{Binding SelectedSortOption}" />
+                      Margin="20 0 0 0"
+                      ItemsSource="{Binding SortOptions}"
+                      SelectedItem="{Binding SelectedSortOption}" />
 
             <!-- 출판사 필터 -->
             <TextBox Width="150" Height="32"
-             Margin="10 0 0 0"
-             Text="{Binding PublisherFilter, UpdateSourceTrigger=PropertyChanged}"
-             ToolTip="출판사 필터" />
+                     Margin="10 0 0 0"
+                     Text="{Binding PublisherFilter, UpdateSourceTrigger=PropertyChanged}"
+                     ToolTip="출판사 필터" />
 
             <!-- 필터 초기화 버튼 -->
             <Button Content="초기화"
-            Height="32"
-            Padding="10 0"
-            Margin="10 0 0 0"
-            Command="{Binding SearchCommand}" />
+                    Height="32"
+                    Padding="10 0"
+                    Margin="10 0 0 0"
+                    Command="{Binding SearchCommand}" />
         </StackPanel>
+        <!-- 검색/필터/정렬/즐겨찾기 영역 끝 -->
 
 
-
-        <!-- 책 리스트 -->
+        <!-- 책 리스트 영역 -->
         <ListBox ItemsSource="{Binding Books}"
-         Grid.Row="1"
-         MouseDoubleClick="BookListBox_MouseDoubleClick"
-         Background="Transparent"
-         BorderThickness="0"
-         ScrollViewer.VerticalScrollBarVisibility="Auto">
+                 Grid.Row="1"
+                 MouseDoubleClick="BookListBox_MouseDoubleClick"
+                 Background="Transparent"
+                 BorderThickness="0"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto">
 
-            <!-- 💡 모든 항목 폭을 ListBox에 맞게 자동 확장 -->
+            <!-- 모든 항목 폭을 ListBox에 맞게 확장 -->
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
@@ -74,18 +72,20 @@
 
             <ListBox.ItemTemplate>
                 <DataTemplate>
+                    <!-- 책 카드 한 개 영역 -->
                     <Border BorderBrush="LightGray"
-                    BorderThickness="1"
-                    CornerRadius="6"
-                    Padding="10"
-                    Margin="0 0 0 10"
-                    HorizontalAlignment="Stretch">
+                            BorderThickness="1"
+                            CornerRadius="6"
+                            Padding="10"
+                            Margin="0 0 0 10"
+                            HorizontalAlignment="Stretch">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
 
+                            <!-- 썸네일 이미지 -->
                             <Image Grid.Column="0"
                            Source="{Binding Thumbnail}"
                            Width="80" Height="100"
@@ -93,6 +93,7 @@
                            Stretch="UniformToFill"
                            ClipToBounds="True"/>
 
+                            <!-- 책 정보 및 즐겨찾기 버튼 -->
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                 <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="16" TextWrapping="Wrap"/>
                                 <TextBlock Text="{Binding Publisher}" Margin="0 2 0 0"/>
@@ -104,15 +105,18 @@
                             </StackPanel>
                         </Grid>
                     </Border>
+                    <!-- 책 카드 한 개 영역 끝 -->
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <!-- 책 리스트 영역 끝 -->
 
-        <!-- 페이지 이동 -->
+        <!-- 페이지 이동 영역 -->
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 15 0 0">
             <Button Content="← 이전" Command="{Binding PrevPageCommand}" Padding="10 5" Margin="5"/>
             <TextBlock Text="{Binding Page}" FontSize="14" VerticalAlignment="Center" Margin="10 0"/>
             <Button Content="다음 →" Command="{Binding NextPageCommand}" Padding="10 5" Margin="5"/>
         </StackPanel>
+        <!-- 페이지 이동 영역 끝 -->
     </Grid>
 </Window>

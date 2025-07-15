@@ -1,36 +1,27 @@
 ﻿using BookSearchApp.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace BookSearchApp.Views
 {
-    /// <summary>
-    /// MainView.xaml에 대한 상호 작용 논리
-    /// </summary>
+    // 메인 창(Window)
     public partial class MainView : Window
     {
+        // 생성자 - 컴포넌트 초기화
         public MainView()
         {
             InitializeComponent();
         }
 
+        // 즐겨찾기 창 열기 버튼 클릭 이벤트
         private void OpenFavorites_Click(object sender, RoutedEventArgs e)
         {
             var favoritesWindow = new FavoritesView();
             favoritesWindow.ShowDialog();
         }
 
+        // 책 리스트 더블클릭 시 상세창 열기
         private void BookListBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             if (sender is ListBox listBox && listBox.SelectedItem is Book selectedBook)
@@ -39,6 +30,5 @@ namespace BookSearchApp.Views
                 detailView.ShowDialog();
             }
         }
-
     }
 }
