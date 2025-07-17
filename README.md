@@ -1,4 +1,4 @@
-# 📚 BookSearchApp
+# BookSearchApp
 
 ## 프로젝트 개요
 
@@ -11,7 +11,7 @@
 
 ## 아키텍처
 
-![아키텍처](Screenshots/Architecture.png)
+![아키텍처](Screenshots/Flow.png)
 
 ### 전체 구조
 
