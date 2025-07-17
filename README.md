@@ -1,4 +1,4 @@
-# BookSearchApp
+# 책 검색 앱
 
 ## 프로젝트 개요
 
