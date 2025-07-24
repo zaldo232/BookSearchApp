@@ -1,7 +1,7 @@
 # 책 검색 앱
 
 ## 프로젝트 개요
- 여러 외부 API를 활용해 책을 검색하고 요약까지 가능한 WPF 기반 책 검색 애플리케이션입니다.
+ 카카오 API를 활용해 책을 검색하고 오픈 AI API로 요약까지 가능한 WPF 기반 책 검색 애플리케이션입니다.
 - WPF .NET8 MVVM 데스크탑 앱으로, Kakao Book API 기반 도서 검색 기능과 OpenAI API 기반 책 요약 기능을 지원
 - 즐겨찾기 기능은 로컬 JSON에 저장되며, 정렬 및 필터링 등 UI 기능 제공
 - **클라이언트**: WPF(.NET 8, MVVM), Kakao Book API 및 OpenAI GPT 연동, 즐겨찾기 로컬 저장
